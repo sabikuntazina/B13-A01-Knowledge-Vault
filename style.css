@@ -5,7 +5,7 @@
 }
 /* sharable classes */
 .btn{
-    background-color: #30B868;
+    background-color: rgba(70, 145, 101, 1);
     color: #FFFFFF;
     padding: 12px 16px;
     border: none;
@@ -210,3 +210,49 @@ height: 500px;
     justify-content: center;
 
 }
+
+/* early access section start  */
+#early-access-section .container{
+    background-color: rgba(247, 246, 242, 1);
+text-align: center;
+padding: 80px 0;
+border-radius: 5px;
+}
+#early-access-section .container h1{
+    font-size: 40px;
+    color: rgba(0, 25, 49, 1);
+   
+}
+#early-access-section .container p{
+  color: rgba(98, 115, 130, 1);
+margin: 10px 0 20px 0;
+line-height: 25px;
+}
+#early-access-section .container .btn{
+ box-shadow: 5px 5px 5px 0 rgb(168, 168, 168);
+}
+#early-access-section .container .early-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ color: rgba(98, 115, 130, 1);
+}
+#early-access-section .container ul {
+
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+color: rgba(98, 115, 130, 1);
+margin-top: 20px;
+}
+#early-access-section .container ul .special-li {
+
+  list-style: none;
+  margin-right:10px ;
+}
+
+
+   
+
