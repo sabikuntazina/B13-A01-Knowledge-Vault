@@ -149,3 +149,64 @@ border-radius: 50%;
 .card p{
     color: rgba(98, 115, 130, 1);
 }
+/* knowledge section start  */
+#Knowledge-section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+   
+    margin: 120px auto;
+ 
+}
+ /* .left-Knowledge{
+    border: 2px solid blue;
+   
+ } */
+#Knowledge-section .left-Knowledge img{
+   width: 450px;
+height: 500px;
+    height: 420px;
+    border-radius: 10px;
+}
+#Knowledge-section .right-knowledge h4{
+    color: rgba(70, 145, 101, 1);
+    text-transform: uppercase;
+}
+#Knowledge-section .right-knowledge h4{
+    color: rgba(70, 145, 101, 1);
+    text-transform: uppercase;
+}
+#Knowledge-section .right-knowledge h2{
+    color: black;
+    font-size: 50px;
+    margin: 10px 0;
+}
+#Knowledge-section .right-knowledge .pera{
+    color:rgba(98, 115, 130, 1);
+    margin-bottom: 10px;
+
+  line-height: 20px;
+  text-align: justify;
+
+}
+#Knowledge-section .right-knowledge .pera2{
+    margin: 20px 0;
+
+}
+#Knowledge-section .right-knowledge .pera2 p{
+    color:black;
+    margin-bottom: 10px;
+
+}
+#Knowledge-section .right-knowledge .pera2 p i{
+    color:white;
+    font-size: 10px;
+    background-color: #30B868;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
