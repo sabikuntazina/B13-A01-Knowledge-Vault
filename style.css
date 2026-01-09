@@ -105,3 +105,47 @@ nav img{
   color: transparent;
     -webkit-text-stroke: 2px white; 
 }
+/* Card section start */
+#Card-section{
+    background-color: #fbfbfb;
+    text-align: center;
+}
+.section-card h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 50px 0 20px 0;
+
+}
+.section-card p{
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 50px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+
+}
+.card{
+    background-color: white;
+    padding: 40px 24px 0px 24px;
+    text-align: center;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.06);
+    width: 322px;
+    height: 220px;
+}
+.card img{
+background: rgba(249, 85, 85, 1);
+padding: 10px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.card h3{
+    line-height: 29px;
+    color: rgba(0, 25, 49, 1);
+    margin: 16px 0;
+    font-size: 24px;
+}
+.card p{
+    color: rgba(98, 115, 130, 1);
+}
